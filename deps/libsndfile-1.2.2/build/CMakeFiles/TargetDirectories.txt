@@ -1,0 +1,16 @@
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/sndfile.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/sndfile-to-text.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/sndfile-loopify.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/make_sine.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/sfprocess.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/list_formats.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/generate.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/sndfilehandle.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/package.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/package_source.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/list_install_components.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/install.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/install/local.dir
+/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/build/CMakeFiles/install/strip.dir

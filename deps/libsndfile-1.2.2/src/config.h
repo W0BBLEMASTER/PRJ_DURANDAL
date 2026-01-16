@@ -1,0 +1,41 @@
+#ifndef LIBSNDFILE_CONFIG_H
+#define LIBSNDFILE_CONFIG_H
+
+#define HAVE_CONFIG_H 1
+#define PACKAGE_NAME "libsndfile"
+#define PACKAGE_VERSION "1.2.2"
+#define OS_IS_WIN32 1
+#define ENABLE_SNDFILE_WINDOWS_PROTOTYPES 1
+#define HAVE_STDINT_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_MALLOC_H 1
+#define HAVE_LOCALE_H 1
+#define HAVE_LRINT 1
+#define HAVE_LRINTF 1
+#define HAVE_FSTAT 1
+#define HAVE_GETTIMEOFDAY 1
+#define HAVE_SETLOCALE 1
+#define SIZEOF_LONG 8
+#define SIZEOF_LONG_LONG 8
+#define SIZEOF_SSIZE_T 8
+#define SIZEOF_WCHAR_T 2
+#define CPU_IS_LITTLE_ENDIAN 1
+#define CPU_IS_BIG_ENDIAN 0
+#define CPU_CLIPS_POSITIVE 0
+#define CPU_CLIPS_NEGATIVE 0
+#define ENABLE_EXPERIMENTAL_CODE 0
+#define HAVE_EXTERNAL_LIBS 0
+#define HAVE_OGG 0
+#define HAVE_VORBIS 0
+#define HAVE_FLAC 0
+#define HAVE_OPUS 0
+#define HAVE_MPEG 0
+
+#ifndef S_ISSOCK
+#define S_ISSOCK(m) 0
+#endif
+
+#endif

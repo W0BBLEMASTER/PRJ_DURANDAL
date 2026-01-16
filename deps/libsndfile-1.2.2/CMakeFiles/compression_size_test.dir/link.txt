@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/compression_size_test.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/compression_size_test.dir/objects.a @CMakeFiles/compression_size_test.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/compression_size_test.dir/objects.a -Wl,--no-whole-archive -o compression_size_test.exe -Wl,--out-implib,libcompression_size_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/compression_size_test.dir/linkLibs.rsp

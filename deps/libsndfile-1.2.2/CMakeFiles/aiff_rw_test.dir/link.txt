@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/aiff_rw_test.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/aiff_rw_test.dir/objects.a @CMakeFiles/aiff_rw_test.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/aiff_rw_test.dir/objects.a -Wl,--no-whole-archive -o aiff_rw_test.exe -Wl,--out-implib,libaiff_rw_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/aiff_rw_test.dir/linkLibs.rsp

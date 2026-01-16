@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libtest_utils.a CMakeFiles/test_utils.dir/tests/utils.c.obj
+/usr/bin/x86_64-w64-mingw32-ranlib libtest_utils.a

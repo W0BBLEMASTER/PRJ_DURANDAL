@@ -1,0 +1,250 @@
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/OGL_Subst_Texture_Def.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/OGL_Setup.cpp:75:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/OGL_Render.cpp:138:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/RenderMain/OGL_Headers.h:27,
+                 from Source_Files/RenderMain/OGL_Shader.h:27,
+                 from Source_Files/RenderMain/OGL_Shader.cpp:25:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/RenderMain/OGL_Headers.h:27,
+                 from Source_Files/RenderMain/Rasterizer_Shader.cpp:9:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/render.cpp:204:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/RenderPlaceObjs.cpp:51:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/RenderRasterize.cpp:37:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/RenderMain/OGL_Headers.h:27,
+                 from Source_Files/RenderMain/RenderRasterize_Shader.cpp:9:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/RenderSortPoly.cpp:35:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/RenderVisTree.cpp:36:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/scottish_textures.cpp:113:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/shapes.cpp:86:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/SW_Texture_Extras.h:25,
+                 from Source_Files/RenderMain/SW_Texture_Extras.cpp:22:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderMain/textures.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/ChaseCam.cpp:27:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/computer_interface.cpp:103:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/fades.cpp:63:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/FontHandler.cpp:37:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/game_window.cpp:61:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/HUDRenderer.h:31,
+                 from Source_Files/RenderOther/HUDRenderer.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/HUDRenderer.h:31,
+                 from Source_Files/RenderOther/HUDRenderer_Lua.h:25,
+                 from Source_Files/RenderOther/HUDRenderer_Lua.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/RenderOther/HUDRenderer.h:31,
+                 from Source_Files/RenderOther/HUDRenderer_OGL.h:31,
+                 from Source_Files/RenderOther/HUDRenderer_OGL.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+-DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderMain/RenderVisTree.o Source_Files/RenderMain/RenderVisTree.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderMain/scottish_textures.o Source_Files/RenderMain/scottish_textures.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderMain/shapes.o Source_Files/RenderMain/shapes.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderMain/SW_Texture_Extras.o Source_Files/RenderMain/SW_Texture_Extras.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderMain/textures.o Source_Files/RenderMain/textures.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/ChaseCam.o Source_Files/RenderOther/ChaseCam.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/computer_interface.o Source_Files/RenderOther/computer_interface.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/fades.o Source_Files/RenderOther/fades.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/FontHandler.o Source_Files/RenderOther/FontHandler.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/game_window.o Source_Files/RenderOther/game_window.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/HUDRenderer.o Source_Files/RenderOther/HUDRenderer.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/HUDRenderer_Lua.o Source_Files/RenderOther/HUDRenderer_Lua.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O2 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/RenderOther/HUDRenderer_OGL.o Source_Files/RenderOther/HUDRenderer_OGL.cpp 

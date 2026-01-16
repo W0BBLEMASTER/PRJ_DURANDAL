@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/virtual_io_test.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/virtual_io_test.dir/objects.a @CMakeFiles/virtual_io_test.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/virtual_io_test.dir/objects.a -Wl,--no-whole-archive -o virtual_io_test.exe -Wl,--out-implib,libvirtual_io_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/virtual_io_test.dir/linkLibs.rsp

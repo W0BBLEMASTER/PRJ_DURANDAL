@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/scale_clip_test.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/scale_clip_test.dir/objects.a @CMakeFiles/scale_clip_test.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/scale_clip_test.dir/objects.a -Wl,--no-whole-archive -o scale_clip_test.exe -Wl,--out-implib,libscale_clip_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/scale_clip_test.dir/linkLibs.rsp

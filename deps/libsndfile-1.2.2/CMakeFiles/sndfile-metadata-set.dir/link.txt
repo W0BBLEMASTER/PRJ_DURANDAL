@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/sndfile-metadata-set.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/sndfile-metadata-set.dir/objects.a @CMakeFiles/sndfile-metadata-set.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/sndfile-metadata-set.dir/objects.a -Wl,--no-whole-archive -o sndfile-metadata-set.exe -Wl,--out-implib,libsndfile-metadata-set.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/sndfile-metadata-set.dir/linkLibs.rsp

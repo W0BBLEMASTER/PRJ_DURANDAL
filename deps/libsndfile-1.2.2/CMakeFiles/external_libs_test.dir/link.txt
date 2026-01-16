@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/external_libs_test.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/external_libs_test.dir/objects.a @CMakeFiles/external_libs_test.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/external_libs_test.dir/objects.a -Wl,--no-whole-archive -o external_libs_test.exe -Wl,--out-implib,libexternal_libs_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/external_libs_test.dir/linkLibs.rsp

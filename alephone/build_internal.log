@@ -1,0 +1,1157 @@
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/shell.o Source_Files/shell.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/shell_misc.o Source_Files/shell_misc.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/shell_options.o Source_Files/shell_options.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/BStream.o Source_Files/CSeries/BStream.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/byte_swapping.o Source_Files/CSeries/byte_swapping.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/csalerts_sdl.o Source_Files/CSeries/csalerts_sdl.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/cscluts_sdl.o Source_Files/CSeries/cscluts_sdl.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/csdialogs_sdl.o Source_Files/CSeries/csdialogs_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/csdialogs_sdl.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/byte_swapping.cpp:22:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/csalerts_sdl.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/shell.cpp:26:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/shell_misc.cpp:32:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/cscluts_sdl.cpp:27:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/BStream.h:25,
+                 from Source_Files/CSeries/BStream.cpp:22:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/Files/tags.h:4,
+                 from Source_Files/Files/FileHandler.h:51,
+                 from Source_Files/shell_options.cpp:7:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/csmisc_sdl.o Source_Files/CSeries/csmisc_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/csmisc_sdl.cpp:27:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/cspaths_sdl.o Source_Files/CSeries/cspaths_sdl.cpp 
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/CSeries/cspaths_sdl.cpp:22:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/csstrings.o Source_Files/CSeries/csstrings.cpp 
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/CSeries/csstrings.h:37,
+                 from Source_Files/CSeries/csstrings.cpp:41:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/FilmProfile.o Source_Files/CSeries/FilmProfile.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/CSeries/mytm_sdl.o Source_Files/CSeries/mytm_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/CSeries/mytm_sdl.cpp:43:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/AStream.o Source_Files/Files/AStream.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/crc.o Source_Files/Files/crc.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/crc.cpp:34:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/Files/AStream.h:42,
+                 from Source_Files/Files/AStream.cpp:39:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/FileHandler.o Source_Files/Files/FileHandler.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/FileHandler.cpp:33:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/find_files_sdl.o Source_Files/Files/find_files_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/find_files_sdl.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/game_wad.o Source_Files/Files/game_wad.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/game_wad.cpp:84:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/import_definitions.o Source_Files/Files/import_definitions.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/import_definitions.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/Packing.o Source_Files/Files/Packing.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/Packing.cpp:25:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/preprocess_map_sdl.o Source_Files/Files/preprocess_map_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/preprocess_map_sdl.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/preprocess_map_shared.o Source_Files/Files/preprocess_map_shared.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/interface.h:55,
+                 from Source_Files/Files/preprocess_map_shared.cpp:25:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/resource_manager.o Source_Files/Files/resource_manager.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/SDL_rwops_ostream.o Source_Files/Files/SDL_rwops_ostream.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/resource_manager.cpp:33:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/wad.o Source_Files/Files/wad.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/wad.cpp:79:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/WadImageCache.o Source_Files/Files/WadImageCache.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/wad_prefs.o Source_Files/Files/wad_prefs.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/WadImageCache.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/wad_prefs.cpp:33:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Files/wad_sdl.o Source_Files/Files/wad_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Files/wad_sdl.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/devices.o Source_Files/GameWorld/devices.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/devices.cpp:59:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/dynamic_limits.o Source_Files/GameWorld/dynamic_limits.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/dynamic_limits.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/effects.o Source_Files/GameWorld/effects.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/effects.cpp:38:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/ephemera.o Source_Files/GameWorld/ephemera.cpp 
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/GameWorld/world.h:43,
+                 from Source_Files/GameWorld/map.h:57,
+                 from Source_Files/GameWorld/ephemera.h:24,
+                 from Source_Files/GameWorld/ephemera.cpp:19:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/flood_map.o Source_Files/GameWorld/flood_map.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/flood_map.cpp:42:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+Source_Files/GameWorld/ephemera.cpp: In function ‘void update_ephemera()’:
+Source_Files/GameWorld/ephemera.cpp:210:71: warning: bitwise operation between different enumeration types ‘<unnamed enum>’ and ‘<unnamed enum>’ is deprecated [-Wdeprecated-enum-enum-conversion]
+  210 |                         const uint16 flags = _obj_last_frame_animated | _ephemera_end_when_animation_loops;
+      |                                              ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/interpolated_world.o Source_Files/GameWorld/interpolated_world.cpp 
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/GameWorld/dynamic_limits.h:34,
+                 from Source_Files/GameWorld/interpolated_world.cpp:29:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/items.o Source_Files/GameWorld/items.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/items.cpp:63:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/lightsource.o Source_Files/GameWorld/lightsource.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/lightsource.cpp:46:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/map_constructors.o Source_Files/GameWorld/map_constructors.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/map.o Source_Files/GameWorld/map.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/map_constructors.cpp:52:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/marathon2.o Source_Files/GameWorld/marathon2.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/map.cpp:103:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/marathon2.cpp:77:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/media.o Source_Files/GameWorld/media.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/media.cpp:43:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/monsters.o Source_Files/GameWorld/monsters.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/monsters.cpp:97:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/pathfinding.o Source_Files/GameWorld/pathfinding.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/physics.o Source_Files/GameWorld/physics.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/pathfinding.cpp:43:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/physics.cpp:75:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/placement.o Source_Files/GameWorld/placement.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/placement.cpp:32:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/platforms.o Source_Files/GameWorld/platforms.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/platforms.cpp:65:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/player.o Source_Files/GameWorld/player.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/player.cpp:136:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/projectiles.o Source_Files/GameWorld/projectiles.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/projectiles.cpp:84:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/scenery.o Source_Files/GameWorld/scenery.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/scenery.cpp:49:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/weapons.o Source_Files/GameWorld/weapons.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/weapons.cpp:95:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/GameWorld/world.o Source_Files/GameWorld/world.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/world.cpp:55:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Input/joystick_sdl.o Source_Files/Input/joystick_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/GameWorld/player.h:66,
+                 from Source_Files/Input/joystick_sdl.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Input/mouse_sdl.o Source_Files/Input/mouse_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Input/mouse_sdl.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_ephemera.o Source_Files/Lua/lua_ephemera.cpp 
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/GameWorld/world.h:43,
+                 from Source_Files/GameWorld/map.h:57,
+                 from Source_Files/GameWorld/ephemera.h:24,
+                 from Source_Files/Lua/lua_ephemera.cpp:25:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_hud_objects.o Source_Files/Lua/lua_hud_objects.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_hud_script.o Source_Files/Lua/lua_hud_script.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_hud_script.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_hud_objects.h:26,
+                 from Source_Files/Lua/lua_hud_objects.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_map.o Source_Files/Lua/lua_map.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/interface.h:55,
+                 from Source_Files/Lua/lua_map.cpp:25:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_monsters.o Source_Files/Lua/lua_monsters.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_monsters.h:26,
+                 from Source_Files/Lua/lua_monsters.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_music.o Source_Files/Lua/lua_music.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_music.h:5,
+                 from Source_Files/Lua/lua_music.cpp:1:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_objects.o Source_Files/Lua/lua_objects.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_objects.h:26,
+                 from Source_Files/Lua/lua_objects.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_player.o Source_Files/Lua/lua_player.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/ActionQueues.h:46,
+                 from Source_Files/Lua/lua_player.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_projectiles.o Source_Files/Lua/lua_projectiles.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_map.h:26,
+                 from Source_Files/Lua/lua_projectiles.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_saved_objects.o Source_Files/Lua/lua_saved_objects.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_monsters.h:26,
+                 from Source_Files/Lua/lua_saved_objects.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_script.o Source_Files/Lua/lua_script.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_script.cpp:60:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Lua/lua_serialize.o Source_Files/Lua/lua_serialize.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Lua/lua_serialize.h:26,
+                 from Source_Files/Lua/lua_serialize.cpp:24:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+Source_Files/Lua/lua_saved_objects.cpp: In function ‘int Lua_SoundObject_Get_Volume(lua_State*)’:
+Source_Files/Lua/lua_saved_objects.cpp:221:59: warning: arithmetic between floating-point type ‘double’ and enumeration type ‘<unnamed enum>’ is deprecated [-Wdeprecated-enum-float-conversion]
+  221 |                 lua_pushnumber(L, (double) object->facing / MAXIMUM_SOUND_VOLUME);
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/achievements.o Source_Files/Misc/achievements.cpp 
+In file included from Source_Files/CSeries/cstypes.h:27,
+                 from Source_Files/Files/crc.h:32,
+                 from Source_Files/Misc/achievements.cpp:3:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/ActionQueues.o Source_Files/Misc/ActionQueues.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/CircularByteBuffer.o Source_Files/Misc/CircularByteBuffer.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/ActionQueues.h:46,
+                 from Source_Files/Misc/ActionQueues.cpp:45:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/CircularByteBuffer.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/Console.o Source_Files/Misc/Console.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/Console.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/DefaultStringSets.o Source_Files/Misc/DefaultStringSets.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/game_errors.o Source_Files/Misc/game_errors.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/DefaultStringSets.cpp:26:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/game_errors.cpp:25:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/interface.o Source_Files/Misc/interface.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/interface.cpp:111:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/Logging.o Source_Files/Misc/Logging.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/Logging.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/PlayerImage_sdl.o Source_Files/Misc/PlayerImage_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/PlayerImage_sdl.h:25,
+                 from Source_Files/Misc/PlayerImage_sdl.cpp:23:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/PlayerName.o Source_Files/Misc/PlayerName.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/PlayerName.cpp:27:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/preference_dialogs.o Source_Files/Misc/preference_dialogs.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/shared_widgets.h:32,
+                 from Source_Files/Misc/preference_dialogs.h:25,
+                 from Source_Files/Misc/preference_dialogs.cpp:22:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/preferences.o Source_Files/Misc/preferences.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/preferences.cpp:55:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/preferences_widgets_sdl.o Source_Files/Misc/preferences_widgets_sdl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/preferences_widgets_sdl.h:33,
+                 from Source_Files/Misc/preferences_widgets_sdl.cpp:31:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/ScenarioChooser.o Source_Files/Misc/ScenarioChooser.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/Scenario.o Source_Files/Misc/Scenario.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/Scenario.cpp:27:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/sdl_dialogs.o Source_Files/Misc/sdl_dialogs.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/sdl_dialogs.cpp:34:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/Misc/interface.cpp:154:
+Source_Files/Sound/OpenALManager.h:33:64: warning: arithmetic between enumeration type ‘<unnamed enum>’ and floating-point type ‘float’ is deprecated [-Wdeprecated-enum-float-conversion]
+   33 | constexpr float abortAmplitudeThreshold = MAXIMUM_SOUND_VOLUME / 6.f / 256;
+      |                                           ~~~~~~~~~~~~~~~~~~~~~^~~~~
+Source_Files/Misc/interface.cpp: In function ‘void next_game_screen()’:
+Source_Files/Misc/interface.cpp:3024:72: warning: arithmetic between floating-point type ‘float’ and enumeration type ‘<unnamed enum>’ is deprecated [-Wdeprecated-enum-float-conversion]
+ 3024 |                                         parameters.pitch = pitch * 1.f / _normal_frequency;
+      |                                                            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+Source_Files/Misc/interface.cpp: In function ‘void try_and_display_chapter_screen(short int, bool, bool)’:
+Source_Files/Misc/interface.cpp:3302:64: warning: arithmetic between floating-point type ‘float’ and enumeration type ‘<unnamed enum>’ is deprecated [-Wdeprecated-enum-float-conversion]
+ 3302 |                                 parameters.pitch = pitch * 1.f / _normal_frequency;
+      |                                                    ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/sdl_widgets.o Source_Files/Misc/sdl_widgets.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/sdl_widgets.cpp:42:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/ScenarioChooser.cpp:13:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/shared_widgets.o Source_Files/Misc/shared_widgets.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/shared_widgets.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/Statistics.o Source_Files/Misc/Statistics.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/Statistics.h:24,
+                 from Source_Files/Misc/Statistics.cpp:21:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/steamshim_child.o Source_Files/Misc/steamshim_child.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/thread_priority_sdl_win32.o Source_Files/Misc/thread_priority_sdl_win32.cpp 
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Misc/vbl.o Source_Files/Misc/vbl.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Misc/vbl.cpp:79:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/ModelView/Dim3_Loader.o Source_Files/ModelView/Dim3_Loader.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/ModelView/Dim3_Loader.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/ModelView/Model3D.o Source_Files/ModelView/Model3D.cpp 
+In file included from Source_Files/Misc/preferences.cpp:103:
+Source_Files/Sound/OpenALManager.h:33:64: warning: arithmetic between enumeration type ‘<unnamed enum>’ and floating-point type ‘float’ is deprecated [-Wdeprecated-enum-float-conversion]
+   33 | constexpr float abortAmplitudeThreshold = MAXIMUM_SOUND_VOLUME / 6.f / 256;
+      |                                           ~~~~~~~~~~~~~~~~~~~~~^~~~~
+Source_Files/Misc/preferences.cpp: In function ‘void parse_sound_preferences(InfoTree, std::string)’:
+Source_Files/Misc/preferences.cpp:4960:105: warning: arithmetic between floating-point type ‘float’ and enumeration type ‘<unnamed enum>’ is deprecated [-Wdeprecated-enum-float-conversion]
+ 4960 |                         sound_preferences->volume_db = 10.f * std::log10(static_cast<float>(old_volume) / NUMBER_OF_SOUND_VOLUME_LEVELS);
+      |                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Source_Files/Misc/preferences.cpp:4978:110: warning: arithmetic between floating-point type ‘float’ and enumeration type ‘<unnamed enum>’ is deprecated [-Wdeprecated-enum-float-conversion]
+ 4978 |                         sound_preferences->music_db = 10.f * std::log10(static_cast<float>(old_music_volume) / NUMBER_OF_SOUND_VOLUME_LEVELS);
+      |                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/ModelView/Model3D.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/ModelView/ModelRenderer.o Source_Files/ModelView/ModelRenderer.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/ModelView/ModelRenderer.cpp:28:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/ModelView/StudioLoader.o Source_Files/ModelView/StudioLoader.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/ModelView/StudioLoader.cpp:36:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/ModelView/WavefrontLoader.o Source_Files/ModelView/WavefrontLoader.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/ModelView/WavefrontLoader.cpp:30:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+x86_64-w64-mingw32-g++-posix -std=c++20 -O3 -g -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DPACKAGE_NAME="libsndfile" -DPACKAGE_VERSION="1.2.2" -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1 -I../skeletor -I. -ISource_Files -ISource_Files/CSeries -ISource_Files/Files -ISource_Files/GameWorld -ISource_Files/Input -ISource_Files/Lua -ISource_Files/Misc -ISource_Files/ModelView -ISource_Files/Network -ISource_Files/Network/Metaserver -ISource_Files/Videos -ISource_Files/RenderMain -ISource_Files/RenderOther -ISource_Files/Sound -ISource_Files/XML -ISource_Files/TCPMess -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include -I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 -I../deps/openal-soft-1.23.1-bin/include -I../deps/boost_1_84_0 -I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include -I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include -I../deps/asio-1.28.0/include -I../deps/zlib-1.3.1 -I../deps/libsndfile-1.2.2/src -I../deps/libsndfile-1.2.2-win64/include -include cstdio -include cstdint -c -o Source_Files/Network/ConnectPool.o Source_Files/Network/ConnectPool.cpp 
+In file included from Source_Files/CSeries/cseries.h:29,
+                 from Source_Files/Network/ConnectPool.h:27,
+                 from Source_Files/Network/ConnectPool.cpp:24:
+./config.h:149:9: warning: ‘PACKAGE_NAME’ redefined
+  149 | #define PACKAGE_NAME "Aleph One"
+      |         ^~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+./config.h:161:9: warning: ‘PACKAGE_VERSION’ redefined
+  161 | #define PACKAGE_VERSION "20250829"
+      |         ^~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition
+In file included from ../deps/boost_1_84_0/boost/property_tree/ptree.hpp:516,
+                 from Source_Files/XML/InfoTree.h:35,
+                 from Source_Files/Misc/sdl_dialogs.cpp:64:
+../deps/boost_1_84_0/boost/property_tree/detail/ptree_implementation.hpp: In instantiation of ‘boost::property_tree::basic_ptree<Key, Data, KeyCompare>::basic_ptree(const boost::property_tree::basic_ptree<Key, Data, KeyCompare>&) [with Key = std::__cxx11::basic_string<char>; Data = std::__cxx11::basic_string<char>; KeyCompare = boost::property_tree::detail::less_nocase<std::__cxx11::basic_string<char> >]’:
+Source_Files/XML/InfoTree.h:51:86:   required from here
+   51 |         InfoTree(const boost::property_tree::iptree &rhs) : boost::property_tree::iptree(rhs) {}
+      |                                                                                             ^
+../deps/boost_1_84_0/boost/property_tree/detail/ptree_implementation.hpp:194:22: internal compiler error: Segmentation fault
+  194 |           m_children(new typename subs::base_container(subs::ch(&rhs)))
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0x234837a diagnostic_context::diagnostic_impl(rich_location*, diagnostic_metadata const*, diagnostic_option_id, char const*, __va_list_tag (*) [1], diagnostic_t)
+	???:0
+0x2359734 internal_error(char const*, ...)
+	???:0
+0x882524 strip_inheriting_ctors(tree_node*)
+	???:0
+0x799c8d build_new_method_call(tree_node*, tree_node*, vec<tree_node*, va_gc, vl_embed>**, tree_node*, int, tree_node**, int)
+	???:0
+0x79b03e build_special_member_call(tree_node*, tree_node*, vec<tree_node*, va_gc, vl_embed>**, tree_node*, int, int)
+	???:0
+0x8652b1 build_new(unsigned long, vec<tree_node*, va_gc, vl_embed>**, tree_node*, tree_node*, vec<tree_node*, va_gc, vl_embed>**, int, int)
+	???:0
+0x9707a3 tsubst_tree_list(tree_node*, tree_node*, int, tree_node*)
+	???:0
+0x95f04d instantiate_decl(tree_node*, bool, bool)
+	???:0
+0x9870b3 instantiate_pending_templates(int)
+	???:0
+0x849657 c_parse_final_cleanups()
+	???:0
+0xa53d18 c_common_parse_file()
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <https://gcc.gnu.org/bugs/> for instructions.
+make: *** [Makefile.libretro:117: Source_Files/Misc/sdl_dialogs.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from Source_Files/Network/Metaserver/metaserver_dialogs.h:29,
+                 from Source_Files/Network/network_dialogs.h:45,
+                 from Source_Files/Network/network_dialog_widgets_sdl.h:36,
+                 from Source_Files/Misc/sdl_widgets.cpp:44:
+Source_Files/Misc/shared_widgets.h:117:73: internal compiler error: Segmentation fault
+  117 |         const vector<ColoredChatEntry> getHistory() { return m_history; }
+      |                                                                         ^
+0x234837a diagnostic_context::diagnostic_impl(rich_location*, diagnostic_metadata const*, diagnostic_option_id, char const*, __va_list_tag (*) [1], diagnostic_t)
+	???:0
+0x2359734 internal_error(char const*, ...)
+	???:0
+0xa83b23 ggc_set_mark(void const*)
+	???:0
+0x9bba57 gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc8dd gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bceb6 gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x9bc35c gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0xce9326 gt_ggc_mx_tree_statement_list_node(void*)
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <https://gcc.gnu.org/bugs/> for instructions.
+make: *** [Makefile.libretro:117: Source_Files/Misc/sdl_widgets.o] Error 1
+In file included from /usr/lib/gcc/x86_64-w64-mingw32/15-posix/include/c++/queue:72,
+                 from Source_Files/Misc/Statistics.h:28:
+/usr/lib/gcc/x86_64-w64-mingw32/15-posix/include/c++/bits/stl_queue.h:611:25: internal compiler error: Segmentation fault
+  611 |         : c(), comp() { }
+      |                         ^
+0x234837a diagnostic_context::diagnostic_impl(rich_location*, diagnostic_metadata const*, diagnostic_option_id, char const*, __va_list_tag (*) [1], diagnostic_t)
+	???:0
+0x2359734 internal_error(char const*, ...)
+	???:0
+0xa83b23 ggc_set_mark(void const*)
+	???:0
+0x9bba57 gt_ggc_mx_lang_tree_node(void*)
+	???:0
+0x8e322b gt_ggc_mx_cp_lexer(void*)
+	???:0
+0x8e316f gt_ggc_mx_cp_lexer(void*)
+	???:0
+0x8e34c3 gt_ggc_mx_cp_parser(void*)
+	???:0
+0xc5baf4 ggc_mark_roots()
+	???:0
+0xa844ec ggc_collect(ggc_collect)
+	???:0
+0x99d9b0 expand_or_defer_fn_1(tree_node*)
+	???:0
+0x99da3c expand_or_defer_fn(tree_node*)
+	???:0
+0x9402f1 c_parse_file()
+	???:0
+0xa53ce9 c_common_parse_file()
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <https://gcc.gnu.org/bugs/> for instructions.
+make: *** [Makefile.libretro:117: Source_Files/Misc/Statistics.o] Error 1

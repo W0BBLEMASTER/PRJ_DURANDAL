@@ -1,0 +1,115 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/ALACBitUtilities.c" "CMakeFiles/sndfile.dir/src/ALAC/ALACBitUtilities.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/ALACBitUtilities.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/ag_dec.c" "CMakeFiles/sndfile.dir/src/ALAC/ag_dec.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/ag_dec.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/ag_enc.c" "CMakeFiles/sndfile.dir/src/ALAC/ag_enc.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/ag_enc.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/alac_decoder.c" "CMakeFiles/sndfile.dir/src/ALAC/alac_decoder.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/alac_decoder.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/alac_encoder.c" "CMakeFiles/sndfile.dir/src/ALAC/alac_encoder.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/alac_encoder.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/dp_dec.c" "CMakeFiles/sndfile.dir/src/ALAC/dp_dec.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/dp_dec.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/dp_enc.c" "CMakeFiles/sndfile.dir/src/ALAC/dp_enc.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/dp_enc.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/matrix_dec.c" "CMakeFiles/sndfile.dir/src/ALAC/matrix_dec.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/matrix_dec.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ALAC/matrix_enc.c" "CMakeFiles/sndfile.dir/src/ALAC/matrix_enc.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ALAC/matrix_enc.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/G72x/g721.c" "CMakeFiles/sndfile.dir/src/G72x/g721.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/G72x/g721.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/G72x/g723_16.c" "CMakeFiles/sndfile.dir/src/G72x/g723_16.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/G72x/g723_16.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/G72x/g723_24.c" "CMakeFiles/sndfile.dir/src/G72x/g723_24.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/G72x/g723_24.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/G72x/g723_40.c" "CMakeFiles/sndfile.dir/src/G72x/g723_40.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/G72x/g723_40.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/G72x/g72x.c" "CMakeFiles/sndfile.dir/src/G72x/g72x.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/G72x/g72x.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/add.c" "CMakeFiles/sndfile.dir/src/GSM610/add.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/add.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/code.c" "CMakeFiles/sndfile.dir/src/GSM610/code.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/code.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/decode.c" "CMakeFiles/sndfile.dir/src/GSM610/decode.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/decode.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/gsm_create.c" "CMakeFiles/sndfile.dir/src/GSM610/gsm_create.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/gsm_create.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/gsm_decode.c" "CMakeFiles/sndfile.dir/src/GSM610/gsm_decode.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/gsm_decode.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/gsm_destroy.c" "CMakeFiles/sndfile.dir/src/GSM610/gsm_destroy.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/gsm_destroy.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/gsm_encode.c" "CMakeFiles/sndfile.dir/src/GSM610/gsm_encode.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/gsm_encode.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/gsm_option.c" "CMakeFiles/sndfile.dir/src/GSM610/gsm_option.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/gsm_option.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/long_term.c" "CMakeFiles/sndfile.dir/src/GSM610/long_term.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/long_term.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/lpc.c" "CMakeFiles/sndfile.dir/src/GSM610/lpc.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/lpc.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/preprocess.c" "CMakeFiles/sndfile.dir/src/GSM610/preprocess.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/preprocess.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/rpe.c" "CMakeFiles/sndfile.dir/src/GSM610/rpe.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/rpe.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/short_term.c" "CMakeFiles/sndfile.dir/src/GSM610/short_term.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/short_term.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/GSM610/table.c" "CMakeFiles/sndfile.dir/src/GSM610/table.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/GSM610/table.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/aiff.c" "CMakeFiles/sndfile.dir/src/aiff.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/aiff.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/alac.c" "CMakeFiles/sndfile.dir/src/alac.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/alac.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/alaw.c" "CMakeFiles/sndfile.dir/src/alaw.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/alaw.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/au.c" "CMakeFiles/sndfile.dir/src/au.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/au.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/audio_detect.c" "CMakeFiles/sndfile.dir/src/audio_detect.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/audio_detect.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/avr.c" "CMakeFiles/sndfile.dir/src/avr.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/avr.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/broadcast.c" "CMakeFiles/sndfile.dir/src/broadcast.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/broadcast.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/caf.c" "CMakeFiles/sndfile.dir/src/caf.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/caf.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/cart.c" "CMakeFiles/sndfile.dir/src/cart.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/cart.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/chanmap.c" "CMakeFiles/sndfile.dir/src/chanmap.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/chanmap.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/chunk.c" "CMakeFiles/sndfile.dir/src/chunk.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/chunk.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/command.c" "CMakeFiles/sndfile.dir/src/command.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/command.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/common.c" "CMakeFiles/sndfile.dir/src/common.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/common.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/dither.c" "CMakeFiles/sndfile.dir/src/dither.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/dither.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/double64.c" "CMakeFiles/sndfile.dir/src/double64.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/double64.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/dwd.c" "CMakeFiles/sndfile.dir/src/dwd.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/dwd.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/dwvw.c" "CMakeFiles/sndfile.dir/src/dwvw.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/dwvw.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/file_io.c" "CMakeFiles/sndfile.dir/src/file_io.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/file_io.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/flac.c" "CMakeFiles/sndfile.dir/src/flac.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/flac.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/float32.c" "CMakeFiles/sndfile.dir/src/float32.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/float32.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/g72x.c" "CMakeFiles/sndfile.dir/src/g72x.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/g72x.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/gsm610.c" "CMakeFiles/sndfile.dir/src/gsm610.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/gsm610.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/htk.c" "CMakeFiles/sndfile.dir/src/htk.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/htk.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/id3.c" "CMakeFiles/sndfile.dir/src/id3.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/id3.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ima_adpcm.c" "CMakeFiles/sndfile.dir/src/ima_adpcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ima_adpcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ima_oki_adpcm.c" "CMakeFiles/sndfile.dir/src/ima_oki_adpcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ima_oki_adpcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/interleave.c" "CMakeFiles/sndfile.dir/src/interleave.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/interleave.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ircam.c" "CMakeFiles/sndfile.dir/src/ircam.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ircam.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/macos.c" "CMakeFiles/sndfile.dir/src/macos.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/macos.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/mat4.c" "CMakeFiles/sndfile.dir/src/mat4.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/mat4.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/mat5.c" "CMakeFiles/sndfile.dir/src/mat5.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/mat5.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/mpc2k.c" "CMakeFiles/sndfile.dir/src/mpc2k.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/mpc2k.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/mpeg.c" "CMakeFiles/sndfile.dir/src/mpeg.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/mpeg.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/mpeg_decode.c" "CMakeFiles/sndfile.dir/src/mpeg_decode.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/mpeg_decode.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/mpeg_l3_encode.c" "CMakeFiles/sndfile.dir/src/mpeg_l3_encode.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/mpeg_l3_encode.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ms_adpcm.c" "CMakeFiles/sndfile.dir/src/ms_adpcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ms_adpcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/nist.c" "CMakeFiles/sndfile.dir/src/nist.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/nist.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/nms_adpcm.c" "CMakeFiles/sndfile.dir/src/nms_adpcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/nms_adpcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ogg.c" "CMakeFiles/sndfile.dir/src/ogg.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ogg.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ogg_opus.c" "CMakeFiles/sndfile.dir/src/ogg_opus.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ogg_opus.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ogg_pcm.c" "CMakeFiles/sndfile.dir/src/ogg_pcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ogg_pcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ogg_speex.c" "CMakeFiles/sndfile.dir/src/ogg_speex.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ogg_speex.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ogg_vcomment.c" "CMakeFiles/sndfile.dir/src/ogg_vcomment.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ogg_vcomment.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ogg_vorbis.c" "CMakeFiles/sndfile.dir/src/ogg_vorbis.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ogg_vorbis.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/paf.c" "CMakeFiles/sndfile.dir/src/paf.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/paf.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/pcm.c" "CMakeFiles/sndfile.dir/src/pcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/pcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/pvf.c" "CMakeFiles/sndfile.dir/src/pvf.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/pvf.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/raw.c" "CMakeFiles/sndfile.dir/src/raw.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/raw.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/rf64.c" "CMakeFiles/sndfile.dir/src/rf64.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/rf64.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/rx2.c" "CMakeFiles/sndfile.dir/src/rx2.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/rx2.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/sd2.c" "CMakeFiles/sndfile.dir/src/sd2.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/sd2.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/sds.c" "CMakeFiles/sndfile.dir/src/sds.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/sds.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/sndfile.c" "CMakeFiles/sndfile.dir/src/sndfile.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/sndfile.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/strings.c" "CMakeFiles/sndfile.dir/src/strings.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/strings.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/svx.c" "CMakeFiles/sndfile.dir/src/svx.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/svx.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/txw.c" "CMakeFiles/sndfile.dir/src/txw.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/txw.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/ulaw.c" "CMakeFiles/sndfile.dir/src/ulaw.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/ulaw.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/voc.c" "CMakeFiles/sndfile.dir/src/voc.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/voc.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/vox_adpcm.c" "CMakeFiles/sndfile.dir/src/vox_adpcm.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/vox_adpcm.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/w64.c" "CMakeFiles/sndfile.dir/src/w64.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/w64.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/wav.c" "CMakeFiles/sndfile.dir/src/wav.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/wav.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/wavlike.c" "CMakeFiles/sndfile.dir/src/wavlike.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/wavlike.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/windows.c" "CMakeFiles/sndfile.dir/src/windows.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/windows.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/wve.c" "CMakeFiles/sndfile.dir/src/wve.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/wve.c.obj.d"
+  "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/src/xi.c" "CMakeFiles/sndfile.dir/src/xi.c.obj" "gcc" "CMakeFiles/sndfile.dir/src/xi.c.obj.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

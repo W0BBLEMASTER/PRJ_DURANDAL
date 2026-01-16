@@ -1,0 +1,1937 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      The target system is: Windows -  - 
+      The host system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/x86_64-w64-mingw32-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/3.31.6/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/x86_64-w64-mingw32-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/3.31.6/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:38 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_89afc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_89afc.dir/build.make CMakeFiles/cmTC_89afc.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK'
+        Building C object CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+        Target: x86_64-w64-mingw32
+        Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32
+        Thread model: win32
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15-win32 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89afc.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/cc1 -quiet -v /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_89afc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccJ76s0y.s
+        GNU C23 (GCC) version 15-win32 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: b6625725f5f73294751aea61a4ba7773
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89afc.dir/'
+         /usr/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj /tmp/ccJ76s0y.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_89afc.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89afc.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper
+        Target: x86_64-w64-mingw32
+        Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32
+        Thread model: win32
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15-win32 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89afc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89afc.'
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmB97I9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_89afc.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_89afc.dir/objects.a --no-whole-archive --out-implib libcmTC_89afc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o
+        collect2 version 15-win32
+        /usr/bin/x86_64-w64-mingw32-ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmB97I9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_89afc.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_89afc.dir/objects.a --no-whole-archive --out-implib libcmTC_89afc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89afc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89afc.'
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_89afc.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_89afc.dir/objects.a @CMakeFiles/cmTC_89afc.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_89afc.dir/objects.a -Wl,--no-whole-archive -o cmTC_89afc.exe -Wl,--out-implib,libcmTC_89afc.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include] ==> [/usr/x86_64-w64-mingw32/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed;/usr/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_89afc/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_89afc.dir/build.make CMakeFiles/cmTC_89afc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK']
+        ignore line: [Building C object CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15-win32 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89afc.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/cc1 -quiet -v /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_89afc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccJ76s0y.s]
+        ignore line: [GNU C23 (GCC) version 15-win32 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b6625725f5f73294751aea61a4ba7773]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89afc.dir/']
+        ignore line: [ /usr/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj /tmp/ccJ76s0y.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89afc.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_89afc.exe]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89afc.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15-win32 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89afc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89afc.']
+        link line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmB97I9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_89afc.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_89afc.dir/objects.a --no-whole-archive --out-implib libcmTC_89afc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccmB97I9.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_89afc.exe] ==> ignore
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o]
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-w64-mingw32/15-win32] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32]
+          arg [-L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_89afc.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_89afc.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+        ignore line: [collect2 version 15-win32]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmB97I9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_89afc.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_89afc.dir/objects.a --no-whole-archive --out-implib libcmTC_89afc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.45]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89afc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89afc.']
+        ignore line: [/usr/bin/cmake -E rm -f CMakeFiles/cmTC_89afc.dir/objects.a]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_89afc.dir/objects.a @CMakeFiles/cmTC_89afc.dir/objects1.rsp]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-gcc  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_89afc.dir/objects.a -Wl --no-whole-archive -o cmTC_89afc.exe -Wl --out-implib libcmTC_89afc.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-jfvyqK']
+        ignore line: []
+        ignore line: []
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> [/usr/x86_64-w64-mingw32/lib/crt2.o]
+        collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32]
+        collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib] ==> [/usr/x86_64-w64-mingw32/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [/usr/x86_64-w64-mingw32/lib/crt2.o;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32;/usr/x86_64-w64-mingw32/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:38 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e65e7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e65e7.dir/build.make CMakeFiles/cmTC_e65e7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb'
+        Building CXX object CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
+        Target: x86_64-w64-mingw32
+        Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32
+        Thread model: win32
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15-win32 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e65e7.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/cc1plus -quiet -v /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e65e7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc4Mkfo0.s
+        GNU C++17 (GCC) version 15-win32 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/x86_64-w64-mingw32
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/backward
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 3e52dd0ed895abde94e913c8fceea93d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e65e7.dir/'
+         /usr/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc4Mkfo0.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e65e7.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e65e7.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper
+        Target: x86_64-w64-mingw32
+        Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32
+        Thread model: win32
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15-win32 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e65e7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e65e7.'
+         /usr/lib/gcc/x86_64-w64-mingw32/15-win32/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRDdJv5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e65e7.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_e65e7.dir/objects.a --no-whole-archive --out-implib libcmTC_e65e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o
+        collect2 version 15-win32
+        /usr/bin/x86_64-w64-mingw32-ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRDdJv5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e65e7.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_e65e7.dir/objects.a --no-whole-archive --out-implib libcmTC_e65e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e65e7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e65e7.'
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_e65e7.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_e65e7.dir/objects.a @CMakeFiles/cmTC_e65e7.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-g++  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_e65e7.dir/objects.a -Wl,--no-whole-archive -o cmTC_e65e7.exe -Wl,--out-implib,libcmTC_e65e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/x86_64-w64-mingw32]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/backward]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed]
+          add: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/x86_64-w64-mingw32] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/x86_64-w64-mingw32]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/backward] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed]
+        collapse include dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include] ==> [/usr/x86_64-w64-mingw32/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/x86_64-w64-mingw32;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/backward;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed;/usr/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:38 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e65e7/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e65e7.dir/build.make CMakeFiles/cmTC_e65e7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15-win32 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e65e7.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/cc1plus -quiet -v /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e65e7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc4Mkfo0.s]
+        ignore line: [GNU C++17 (GCC) version 15-win32 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/x86_64-w64-mingw32]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include/c++/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/include-fixed]
+        ignore line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3e52dd0ed895abde94e913c8fceea93d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e65e7.dir/']
+        ignore line: [ /usr/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc4Mkfo0.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e65e7.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e65e7.exe]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e65e7.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /build/reproducible-path/gcc-mingw-w64-28/src/configure --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15-win32 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/:/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e65e7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e65e7.']
+        link line: [ /usr/lib/gcc/x86_64-w64-mingw32/15-win32/collect2 -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRDdJv5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e65e7.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_e65e7.dir/objects.a --no-whole-archive --out-implib libcmTC_e65e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRDdJv5.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_e65e7.exe] ==> ignore
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o]
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-w64-mingw32/15-win32] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32]
+          arg [-L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_e65e7.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_e65e7.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o] ==> obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+        ignore line: [collect2 version 15-win32]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-ld -plugin /usr/lib/gcc/x86_64-w64-mingw32/15-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-w64-mingw32/15-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRDdJv5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e65e7.exe /usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib -v --whole-archive CMakeFiles/cmTC_e65e7.dir/objects.a --no-whole-archive --out-implib libcmTC_e65e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.45]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e65e7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e65e7.']
+        ignore line: [/usr/bin/cmake -E rm -f CMakeFiles/cmTC_e65e7.dir/objects.a]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_e65e7.dir/objects.a @CMakeFiles/cmTC_e65e7.dir/objects1.rsp]
+        ignore line: [/usr/bin/x86_64-w64-mingw32-g++  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_e65e7.dir/objects.a -Wl --no-whole-archive -o cmTC_e65e7.exe -Wl --out-implib libcmTC_e65e7.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-Jo3GIb']
+        ignore line: []
+        ignore line: []
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> [/usr/x86_64-w64-mingw32/lib/crt2.o]
+        collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32] ==> [/usr/lib/gcc/x86_64-w64-mingw32/15-win32]
+        collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/15-win32/../../../../x86_64-w64-mingw32/lib] ==> [/usr/x86_64-w64-mingw32/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [/usr/x86_64-w64-mingw32/lib/crt2.o;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtbegin.o;/usr/lib/gcc/x86_64-w64-mingw32/15-win32/crtend.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-w64-mingw32/15-win32;/usr/x86_64-w64-mingw32/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:63 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0fa47/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0fa47.dir/build.make CMakeFiles/cmTC_0fa47.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4'
+        Building C object CMakeFiles/cmTC_0fa47.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_0fa47.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4/CheckIncludeFile.c
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4/CheckIncludeFile.c:1:10: fatal error: byteswap.h: No such file or directory
+            1 | #include <byteswap.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_0fa47.dir/build.make:81: CMakeFiles/cmTC_0fa47.dir/CheckIncludeFile.c.obj] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KUw0C4'
+        gmake: *** [Makefile:134: cmTC_0fa47/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:64 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cf4dd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cf4dd.dir/build.make CMakeFiles/cmTC_cf4dd.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9'
+        Building C object CMakeFiles/cmTC_cf4dd.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_cf4dd.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9/CheckIncludeFile.c
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9/CheckIncludeFile.c:1:10: fatal error: dlfcn.h: No such file or directory
+            1 | #include <dlfcn.h>
+              |          ^~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_cf4dd.dir/build.make:81: CMakeFiles/cmTC_cf4dd.dir/CheckIncludeFile.c.obj] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3YtCr9'
+        gmake: *** [Makefile:134: cmTC_cf4dd/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:65 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for direct.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uuHYiy"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uuHYiy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_DIRECT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uuHYiy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45f1b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_45f1b.dir/build.make CMakeFiles/cmTC_45f1b.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uuHYiy'
+        Building C object CMakeFiles/cmTC_45f1b.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_45f1b.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uuHYiy/CheckIncludeFile.c
+        Linking C executable cmTC_45f1b.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45f1b.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_45f1b.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_45f1b.dir/objects.a @CMakeFiles/cmTC_45f1b.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_45f1b.dir/objects.a -Wl,--no-whole-archive -o cmTC_45f1b.exe -Wl,--out-implib,libcmTC_45f1b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_45f1b.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uuHYiy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:66 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for endian.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_ENDIAN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47a21/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_47a21.dir/build.make CMakeFiles/cmTC_47a21.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV'
+        Building C object CMakeFiles/cmTC_47a21.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_47a21.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV/CheckIncludeFile.c
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV/CheckIncludeFile.c:1:10: fatal error: endian.h: No such file or directory
+            1 | #include <endian.h>
+              |          ^~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_47a21.dir/build.make:81: CMakeFiles/cmTC_47a21.dir/CheckIncludeFile.c.obj] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-t5VFnV'
+        gmake: *** [Makefile:134: cmTC_47a21/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:67 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KnGlPu"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KnGlPu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KnGlPu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8d30/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c8d30.dir/build.make CMakeFiles/cmTC_c8d30.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KnGlPu'
+        Building C object CMakeFiles/cmTC_c8d30.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_c8d30.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KnGlPu/CheckIncludeFile.c
+        Linking C executable cmTC_c8d30.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d30.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_c8d30.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_c8d30.dir/objects.a @CMakeFiles/cmTC_c8d30.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_c8d30.dir/objects.a -Wl,--no-whole-archive -o cmTC_c8d30.exe -Wl,--out-implib,libcmTC_c8d30.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c8d30.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-KnGlPu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:68 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for io.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-sWrAay"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-sWrAay"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_IO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-sWrAay'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cf5e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9cf5e.dir/build.make CMakeFiles/cmTC_9cf5e.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-sWrAay'
+        Building C object CMakeFiles/cmTC_9cf5e.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_9cf5e.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-sWrAay/CheckIncludeFile.c
+        Linking C executable cmTC_9cf5e.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cf5e.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_9cf5e.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_9cf5e.dir/objects.a @CMakeFiles/cmTC_9cf5e.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_9cf5e.dir/objects.a -Wl,--no-whole-archive -o cmTC_9cf5e.exe -Wl,--out-implib,libcmTC_9cf5e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9cf5e.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-sWrAay'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:69 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hpTz9Z"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hpTz9Z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hpTz9Z'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_019d7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_019d7.dir/build.make CMakeFiles/cmTC_019d7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hpTz9Z'
+        Building C object CMakeFiles/cmTC_019d7.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_019d7.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hpTz9Z/CheckIncludeFile.c
+        Linking C executable cmTC_019d7.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_019d7.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_019d7.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_019d7.dir/objects.a @CMakeFiles/cmTC_019d7.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_019d7.dir/objects.a -Wl,--no-whole-archive -o cmTC_019d7.exe -Wl,--out-implib,libcmTC_019d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_019d7.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hpTz9Z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:70 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for sys/time.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-A4Q4AE"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-A4Q4AE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-A4Q4AE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_017b2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_017b2.dir/build.make CMakeFiles/cmTC_017b2.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-A4Q4AE'
+        Building C object CMakeFiles/cmTC_017b2.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_017b2.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-A4Q4AE/CheckIncludeFile.c
+        Linking C executable cmTC_017b2.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_017b2.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_017b2.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_017b2.dir/objects.a @CMakeFiles/cmTC_017b2.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_017b2.dir/objects.a -Wl,--no-whole-archive -o cmTC_017b2.exe -Wl,--out-implib,libcmTC_017b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_017b2.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-A4Q4AE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:71 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-v6onC6"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-v6onC6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-v6onC6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d53ef/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d53ef.dir/build.make CMakeFiles/cmTC_d53ef.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-v6onC6'
+        Building C object CMakeFiles/cmTC_d53ef.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_d53ef.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-v6onC6/CheckIncludeFile.c
+        Linking C executable cmTC_d53ef.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d53ef.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_d53ef.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_d53ef.dir/objects.a @CMakeFiles/cmTC_d53ef.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_d53ef.dir/objects.a -Wl,--no-whole-archive -o cmTC_d53ef.exe -Wl,--out-implib,libcmTC_d53ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d53ef.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-v6onC6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:72 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eYK6S6"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eYK6S6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eYK6S6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7bf47/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7bf47.dir/build.make CMakeFiles/cmTC_7bf47.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eYK6S6'
+        Building C object CMakeFiles/cmTC_7bf47.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_7bf47.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eYK6S6/CheckIncludeFile.c
+        Linking C executable cmTC_7bf47.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bf47.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_7bf47.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_7bf47.dir/objects.a @CMakeFiles/cmTC_7bf47.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_7bf47.dir/objects.a -Wl,--no-whole-archive -o cmTC_7bf47.exe -Wl,--out-implib,libcmTC_7bf47.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7bf47.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eYK6S6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:73 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uT2Lbm"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uT2Lbm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uT2Lbm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fa4ec/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fa4ec.dir/build.make CMakeFiles/cmTC_fa4ec.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uT2Lbm'
+        Building C object CMakeFiles/cmTC_fa4ec.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_fa4ec.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uT2Lbm/CheckIncludeFile.c
+        Linking C executable cmTC_fa4ec.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa4ec.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_fa4ec.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_fa4ec.dir/objects.a @CMakeFiles/cmTC_fa4ec.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_fa4ec.dir/objects.a -Wl,--no-whole-archive -o cmTC_fa4ec.exe -Wl,--out-implib,libcmTC_fa4ec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fa4ec.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-uT2Lbm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:74 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-qAjyS7"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-qAjyS7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-qAjyS7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45027/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_45027.dir/build.make CMakeFiles/cmTC_45027.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-qAjyS7'
+        Building C object CMakeFiles/cmTC_45027.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_45027.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-qAjyS7/CheckIncludeFile.c
+        Linking C executable cmTC_45027.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45027.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_45027.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_45027.dir/objects.a @CMakeFiles/cmTC_45027.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_45027.dir/objects.a -Wl,--no-whole-archive -o cmTC_45027.exe -Wl,--out-implib,libcmTC_45027.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_45027.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-qAjyS7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake/CheckCPUArch.cmake:22 (_CHECK_CPU_ARCH)"
+      - "cmake/SndFileChecks.cmake:76 (check_cpu_arch_x86)"
+      - "CMakeLists.txt:95 (include)"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_CPU_IS_X86"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91b42/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_91b42.dir/build.make CMakeFiles/cmTC_91b42.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_91b42.dir/CheckCPUArch.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_91b42.dir/CheckCPUArch.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp/CheckCPUArch.c: In function ‘main’:
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp/CheckCPUArch.c:5:5: error: ‘fail’ undeclared (first use in this function)
+            5 |     fail
+              |     ^~~~
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp/CheckCPUArch.c:5:5: note: each undeclared identifier is reported only once for each function it appears in
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp/CheckCPUArch.c:5:9: error: expected ‘;’ before ‘}’ token
+            5 |     fail
+              |         ^
+              |         ;
+            6 | #endif
+            7 | }
+              | ~        
+        gmake[1]: *** [CMakeFiles/cmTC_91b42.dir/build.make:81: CMakeFiles/cmTC_91b42.dir/CheckCPUArch.c.obj] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:134: cmTC_91b42/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake/CheckCPUArch.cmake:18 (_CHECK_CPU_ARCH)"
+      - "cmake/SndFileChecks.cmake:77 (check_cpu_arch_x64)"
+      - "CMakeLists.txt:95 (include)"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_CPU_IS_X64"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0f7fc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0f7fc.dir/build.make CMakeFiles/cmTC_0f7fc.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0f7fc.dir/CheckCPUArch.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_0f7fc.dir/CheckCPUArch.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        Linking C executable cmTC_0f7fc.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f7fc.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_0f7fc.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_0f7fc.dir/objects.a @CMakeFiles/cmTC_0f7fc.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_0f7fc.dir/objects.a -Wl,--no-whole-archive -o cmTC_0f7fc.exe -Wl,--out-implib,libcmTC_0f7fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0f7fc.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:90 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for locale.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-FFSPKb"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-FFSPKb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-FFSPKb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5073e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5073e.dir/build.make CMakeFiles/cmTC_5073e.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-FFSPKb'
+        Building C object CMakeFiles/cmTC_5073e.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_5073e.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-FFSPKb/CheckIncludeFile.c
+        Linking C executable cmTC_5073e.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5073e.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_5073e.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_5073e.dir/objects.a @CMakeFiles/cmTC_5073e.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_5073e.dir/objects.a -Wl,--no-whole-archive -o cmTC_5073e.exe -Wl,--out-implib,libcmTC_5073e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5073e.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-FFSPKb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/SndFileChecks.cmake:91 (check_include_file)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for sys/wait.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SYS_WAIT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ee721/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ee721.dir/build.make CMakeFiles/cmTC_ee721.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7'
+        Building C object CMakeFiles/cmTC_ee721.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_ee721.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7/CheckIncludeFile.c
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7/CheckIncludeFile.c:1:10: fatal error: sys/wait.h: No such file or directory
+            1 | #include <sys/wait.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_ee721.dir/build.make:81: CMakeFiles/cmTC_ee721.dir/CheckIncludeFile.c.obj] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-YCFac7'
+        gmake: *** [Makefile:134: cmTC_ee721/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "cmake/SndFileChecks.cmake:94 (check_type_size)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGBM3c"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGBM3c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGBM3c'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f62c4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f62c4.dir/build.make CMakeFiles/cmTC_f62c4.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGBM3c'
+        Building C object CMakeFiles/cmTC_f62c4.dir/CheckIncludeFile.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_f62c4.dir/CheckIncludeFile.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGBM3c/CheckIncludeFile.c
+        Linking C executable cmTC_f62c4.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62c4.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_f62c4.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_f62c4.dir/objects.a @CMakeFiles/cmTC_f62c4.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_f62c4.dir/objects.a -Wl,--no-whole-archive -o cmTC_f62c4.exe -Wl,--out-implib,libcmTC_f62c4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f62c4.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGBM3c'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "cmake/SndFileChecks.cmake:94 (check_type_size)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-wHLKi4"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-wHLKi4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT64_T"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-wHLKi4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f11d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7f11d.dir/build.make CMakeFiles/cmTC_7f11d.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-wHLKi4'
+        Building C object CMakeFiles/cmTC_7f11d.dir/SIZEOF_INT64_T.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_7f11d.dir/SIZEOF_INT64_T.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-wHLKi4/SIZEOF_INT64_T.c
+        Linking C executable cmTC_7f11d.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f11d.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_7f11d.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_7f11d.dir/objects.a @CMakeFiles/cmTC_7f11d.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_7f11d.dir/objects.a -Wl,--no-whole-archive -o cmTC_7f11d.exe -Wl,--out-implib,libcmTC_7f11d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7f11d.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-wHLKi4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "cmake/SndFileChecks.cmake:95 (check_type_size)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PSy3uG"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PSy3uG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PSy3uG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ae35c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ae35c.dir/build.make CMakeFiles/cmTC_ae35c.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PSy3uG'
+        Building C object CMakeFiles/cmTC_ae35c.dir/SIZEOF_LONG.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_ae35c.dir/SIZEOF_LONG.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PSy3uG/SIZEOF_LONG.c
+        Linking C executable cmTC_ae35c.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae35c.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_ae35c.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_ae35c.dir/objects.a @CMakeFiles/cmTC_ae35c.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_ae35c.dir/objects.a -Wl,--no-whole-archive -o cmTC_ae35c.exe -Wl,--out-implib,libcmTC_ae35c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ae35c.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PSy3uG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "cmake/SndFileChecks.cmake:96 (check_type_size)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-MckYoT"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-MckYoT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-MckYoT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07ea0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07ea0.dir/build.make CMakeFiles/cmTC_07ea0.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-MckYoT'
+        Building C object CMakeFiles/cmTC_07ea0.dir/SIZEOF_LONG_LONG.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_07ea0.dir/SIZEOF_LONG_LONG.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-MckYoT/SIZEOF_LONG_LONG.c
+        Linking C executable cmTC_07ea0.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07ea0.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_07ea0.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_07ea0.dir/objects.a @CMakeFiles/cmTC_07ea0.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_07ea0.dir/objects.a -Wl,--no-whole-archive -o cmTC_07ea0.exe -Wl,--out-implib,libcmTC_07ea0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_07ea0.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-MckYoT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "cmake/SndFileChecks.cmake:97 (check_type_size)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Check size of ssize_t"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlsNX2"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlsNX2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SSIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlsNX2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_23ab7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_23ab7.dir/build.make CMakeFiles/cmTC_23ab7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlsNX2'
+        Building C object CMakeFiles/cmTC_23ab7.dir/SIZEOF_SSIZE_T.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_23ab7.dir/SIZEOF_SSIZE_T.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlsNX2/SIZEOF_SSIZE_T.c
+        Linking C executable cmTC_23ab7.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23ab7.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_23ab7.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_23ab7.dir/objects.a @CMakeFiles/cmTC_23ab7.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_23ab7.dir/objects.a -Wl,--no-whole-archive -o cmTC_23ab7.exe -Wl,--out-implib,libcmTC_23ab7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_23ab7.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlsNX2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "cmake/SndFileChecks.cmake:98 (check_type_size)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Check size of wchar_t"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hRzGHL"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hRzGHL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_WCHAR_T"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hRzGHL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_634fb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_634fb.dir/build.make CMakeFiles/cmTC_634fb.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hRzGHL'
+        Building C object CMakeFiles/cmTC_634fb.dir/SIZEOF_WCHAR_T.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_634fb.dir/SIZEOF_WCHAR_T.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hRzGHL/SIZEOF_WCHAR_T.c
+        Linking C executable cmTC_634fb.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_634fb.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_634fb.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_634fb.dir/objects.a @CMakeFiles/cmTC_634fb.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_634fb.dir/objects.a -Wl,--no-whole-archive -o cmTC_634fb.exe -Wl,--out-implib,libcmTC_634fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_634fb.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-hRzGHL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "cmake/SndFileChecks.cmake:124 (check_library_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for sqlite3_close in sqlite3"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-VuLXvy"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-VuLXvy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SQLITE3"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-VuLXvy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12852/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_12852.dir/build.make CMakeFiles/cmTC_12852.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-VuLXvy'
+        Building C object CMakeFiles/cmTC_12852.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=sqlite3_close -o CMakeFiles/cmTC_12852.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-VuLXvy/CheckFunctionExists.c
+        Linking C executable cmTC_12852.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12852.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-ld: cannot find -lsqlite3: No such file or directory
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_12852.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_12852.dir/objects.a @CMakeFiles/cmTC_12852.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=sqlite3_close -Wl,--whole-archive CMakeFiles/cmTC_12852.dir/objects.a -Wl,--no-whole-archive -o cmTC_12852.exe -Wl,--out-implib,libcmTC_12852.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_12852.dir/linkLibs.rsp
+        gmake[1]: *** [CMakeFiles/cmTC_12852.dir/build.make:104: cmTC_12852.exe] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-VuLXvy'
+        gmake: *** [Makefile:134: cmTC_12852/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:126 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for fstat"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-WgfPq3"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-WgfPq3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_FSTAT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-WgfPq3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c2415/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c2415.dir/build.make CMakeFiles/cmTC_c2415.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-WgfPq3'
+        Building C object CMakeFiles/cmTC_c2415.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=fstat -o CMakeFiles/cmTC_c2415.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-WgfPq3/CheckFunctionExists.c
+        Linking C executable cmTC_c2415.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2415.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_c2415.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_c2415.dir/objects.a @CMakeFiles/cmTC_c2415.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=fstat -Wl,--whole-archive CMakeFiles/cmTC_c2415.dir/objects.a -Wl,--no-whole-archive -o cmTC_c2415.exe -Wl,--out-implib,libcmTC_c2415.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c2415.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-WgfPq3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:127 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for fstat64"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlIEF7"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlIEF7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_FSTAT64"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlIEF7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2cec2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2cec2.dir/build.make CMakeFiles/cmTC_2cec2.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlIEF7'
+        Building C object CMakeFiles/cmTC_2cec2.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=fstat64 -o CMakeFiles/cmTC_2cec2.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlIEF7/CheckFunctionExists.c
+        Linking C executable cmTC_2cec2.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cec2.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_2cec2.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_2cec2.dir/objects.a @CMakeFiles/cmTC_2cec2.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=fstat64 -Wl,--whole-archive CMakeFiles/cmTC_2cec2.dir/objects.a -Wl,--no-whole-archive -o cmTC_2cec2.exe -Wl,--out-implib,libcmTC_2cec2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2cec2.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-PlIEF7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:128 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3s4bsU"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3s4bsU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3s4bsU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0b69/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c0b69.dir/build.make CMakeFiles/cmTC_c0b69.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3s4bsU'
+        Building C object CMakeFiles/cmTC_c0b69.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_c0b69.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3s4bsU/CheckFunctionExists.c
+        Linking C executable cmTC_c0b69.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0b69.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_c0b69.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_c0b69.dir/objects.a @CMakeFiles/cmTC_c0b69.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=gettimeofday -Wl,--whole-archive CMakeFiles/cmTC_c0b69.dir/objects.a -Wl,--no-whole-archive -o cmTC_c0b69.exe -Wl,--out-implib,libcmTC_c0b69.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c0b69.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3s4bsU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:129 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for gmtime"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3ge9bE"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3ge9bE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_GMTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3ge9bE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_78571/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_78571.dir/build.make CMakeFiles/cmTC_78571.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3ge9bE'
+        Building C object CMakeFiles/cmTC_78571.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=gmtime -o CMakeFiles/cmTC_78571.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3ge9bE/CheckFunctionExists.c
+        Linking C executable cmTC_78571.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78571.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_78571.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_78571.dir/objects.a @CMakeFiles/cmTC_78571.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=gmtime -Wl,--whole-archive CMakeFiles/cmTC_78571.dir/objects.a -Wl,--no-whole-archive -o cmTC_78571.exe -Wl,--out-implib,libcmTC_78571.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_78571.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3ge9bE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:130 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for gmtime_r"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-vvJg5f"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-vvJg5f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_GMTIME_R"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-vvJg5f'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25bf0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_25bf0.dir/build.make CMakeFiles/cmTC_25bf0.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-vvJg5f'
+        Building C object CMakeFiles/cmTC_25bf0.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=gmtime_r -o CMakeFiles/cmTC_25bf0.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-vvJg5f/CheckFunctionExists.c
+        Linking C executable cmTC_25bf0.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25bf0.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-ld: CMakeFiles/cmTC_25bf0.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `gmtime_r'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_25bf0.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_25bf0.dir/objects.a @CMakeFiles/cmTC_25bf0.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=gmtime_r -Wl,--whole-archive CMakeFiles/cmTC_25bf0.dir/objects.a -Wl,--no-whole-archive -o cmTC_25bf0.exe -Wl,--out-implib,libcmTC_25bf0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_25bf0.dir/linkLibs.rsp
+        gmake[1]: *** [CMakeFiles/cmTC_25bf0.dir/build.make:104: cmTC_25bf0.exe] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-vvJg5f'
+        gmake: *** [Makefile:134: cmTC_25bf0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:131 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for localtime"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-29xQP1"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-29xQP1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_LOCALTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-29xQP1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_229d1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_229d1.dir/build.make CMakeFiles/cmTC_229d1.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-29xQP1'
+        Building C object CMakeFiles/cmTC_229d1.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=localtime -o CMakeFiles/cmTC_229d1.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-29xQP1/CheckFunctionExists.c
+        Linking C executable cmTC_229d1.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_229d1.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_229d1.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_229d1.dir/objects.a @CMakeFiles/cmTC_229d1.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=localtime -Wl,--whole-archive CMakeFiles/cmTC_229d1.dir/objects.a -Wl,--no-whole-archive -o cmTC_229d1.exe -Wl,--out-implib,libcmTC_229d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_229d1.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-29xQP1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:132 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for localtime_r"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-2fzdSx"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-2fzdSx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_LOCALTIME_R"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-2fzdSx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d605/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d605.dir/build.make CMakeFiles/cmTC_1d605.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-2fzdSx'
+        Building C object CMakeFiles/cmTC_1d605.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=localtime_r -o CMakeFiles/cmTC_1d605.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-2fzdSx/CheckFunctionExists.c
+        Linking C executable cmTC_1d605.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d605.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-ld: CMakeFiles/cmTC_1d605.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `localtime_r'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_1d605.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_1d605.dir/objects.a @CMakeFiles/cmTC_1d605.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=localtime_r -Wl,--whole-archive CMakeFiles/cmTC_1d605.dir/objects.a -Wl,--no-whole-archive -o cmTC_1d605.exe -Wl,--out-implib,libcmTC_1d605.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1d605.dir/linkLibs.rsp
+        gmake[1]: *** [CMakeFiles/cmTC_1d605.dir/build.make:104: cmTC_1d605.exe] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-2fzdSx'
+        gmake: *** [Makefile:134: cmTC_1d605/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:133 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for lseek"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aN2FJT"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aN2FJT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_LSEEK"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aN2FJT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c59cd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c59cd.dir/build.make CMakeFiles/cmTC_c59cd.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aN2FJT'
+        Building C object CMakeFiles/cmTC_c59cd.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=lseek -o CMakeFiles/cmTC_c59cd.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aN2FJT/CheckFunctionExists.c
+        Linking C executable cmTC_c59cd.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c59cd.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_c59cd.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_c59cd.dir/objects.a @CMakeFiles/cmTC_c59cd.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=lseek -Wl,--whole-archive CMakeFiles/cmTC_c59cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_c59cd.exe -Wl,--out-implib,libcmTC_c59cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c59cd.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aN2FJT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:134 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for open"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-8lhgna"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-8lhgna"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_OPEN"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-8lhgna'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ec0e7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ec0e7.dir/build.make CMakeFiles/cmTC_ec0e7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-8lhgna'
+        Building C object CMakeFiles/cmTC_ec0e7.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=open -o CMakeFiles/cmTC_ec0e7.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-8lhgna/CheckFunctionExists.c
+        Linking C executable cmTC_ec0e7.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec0e7.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_ec0e7.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_ec0e7.dir/objects.a @CMakeFiles/cmTC_ec0e7.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=open -Wl,--whole-archive CMakeFiles/cmTC_ec0e7.dir/objects.a -Wl,--no-whole-archive -o cmTC_ec0e7.exe -Wl,--out-implib,libcmTC_ec0e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ec0e7.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-8lhgna'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:135 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for read"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aOq89b"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aOq89b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_READ"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aOq89b'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9741/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9741.dir/build.make CMakeFiles/cmTC_a9741.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aOq89b'
+        Building C object CMakeFiles/cmTC_a9741.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=read -o CMakeFiles/cmTC_a9741.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aOq89b/CheckFunctionExists.c
+        Linking C executable cmTC_a9741.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9741.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_a9741.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_a9741.dir/objects.a @CMakeFiles/cmTC_a9741.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=read -Wl,--whole-archive CMakeFiles/cmTC_a9741.dir/objects.a -Wl,--no-whole-archive -o cmTC_a9741.exe -Wl,--out-implib,libcmTC_a9741.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a9741.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-aOq89b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:136 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for write"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGCfEe"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGCfEe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_WRITE"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGCfEe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c78af/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c78af.dir/build.make CMakeFiles/cmTC_c78af.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGCfEe'
+        Building C object CMakeFiles/cmTC_c78af.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=write -o CMakeFiles/cmTC_c78af.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGCfEe/CheckFunctionExists.c
+        Linking C executable cmTC_c78af.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c78af.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_c78af.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_c78af.dir/objects.a @CMakeFiles/cmTC_c78af.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=write -Wl,--whole-archive CMakeFiles/cmTC_c78af.dir/objects.a -Wl,--no-whole-archive -o cmTC_c78af.exe -Wl,--out-implib,libcmTC_c78af.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c78af.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-eGCfEe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:137 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for lrint"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_LRINT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d1d8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5d1d8.dir/build.make CMakeFiles/cmTC_5d1d8.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl'
+        Building C object CMakeFiles/cmTC_5d1d8.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=lrint -o CMakeFiles/cmTC_5d1d8.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘lrint’; expected ‘long int(double)’ [-Wbuiltin-declaration-mismatch]
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl/CheckFunctionExists.c:1:1: note: ‘lrint’ is declared in header ‘<math.h>’
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_5d1d8.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d1d8.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_5d1d8.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_5d1d8.dir/objects.a @CMakeFiles/cmTC_5d1d8.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=lrint -Wl,--whole-archive CMakeFiles/cmTC_5d1d8.dir/objects.a -Wl,--no-whole-archive -o cmTC_5d1d8.exe -Wl,--out-implib,libcmTC_5d1d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5d1d8.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-3v7aUl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:138 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for lrintf"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_LRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79780/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_79780.dir/build.make CMakeFiles/cmTC_79780.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP'
+        Building C object CMakeFiles/cmTC_79780.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=lrintf -o CMakeFiles/cmTC_79780.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘lrintf’; expected ‘long int(float)’ [-Wbuiltin-declaration-mismatch]
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP/CheckFunctionExists.c:1:1: note: ‘lrintf’ is declared in header ‘<math.h>’
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_79780.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79780.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_79780.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_79780.dir/objects.a @CMakeFiles/cmTC_79780.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=lrintf -Wl,--whole-archive CMakeFiles/cmTC_79780.dir/objects.a -Wl,--no-whole-archive -o cmTC_79780.exe -Wl,--out-implib,libcmTC_79780.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_79780.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-6gSOMP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:146 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for pipe"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-l6WsOe"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-l6WsOe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_PIPE"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-l6WsOe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3e96/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a3e96.dir/build.make CMakeFiles/cmTC_a3e96.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-l6WsOe'
+        Building C object CMakeFiles/cmTC_a3e96.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=pipe -o CMakeFiles/cmTC_a3e96.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-l6WsOe/CheckFunctionExists.c
+        Linking C executable cmTC_a3e96.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3e96.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-ld: CMakeFiles/cmTC_a3e96.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `pipe'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_a3e96.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_a3e96.dir/objects.a @CMakeFiles/cmTC_a3e96.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=pipe -Wl,--whole-archive CMakeFiles/cmTC_a3e96.dir/objects.a -Wl,--no-whole-archive -o cmTC_a3e96.exe -Wl,--out-implib,libcmTC_a3e96.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a3e96.dir/linkLibs.rsp
+        gmake[1]: *** [CMakeFiles/cmTC_a3e96.dir/build.make:104: cmTC_a3e96.exe] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-l6WsOe'
+        gmake: *** [Makefile:134: cmTC_a3e96/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:147 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for setlocale"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-J09F70"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-J09F70"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_SETLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-J09F70'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d362/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d362.dir/build.make CMakeFiles/cmTC_1d362.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-J09F70'
+        Building C object CMakeFiles/cmTC_1d362.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=setlocale -o CMakeFiles/cmTC_1d362.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-J09F70/CheckFunctionExists.c
+        Linking C executable cmTC_1d362.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d362.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_1d362.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_1d362.dir/objects.a @CMakeFiles/cmTC_1d362.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=setlocale -Wl,--whole-archive CMakeFiles/cmTC_1d362.dir/objects.a -Wl,--no-whole-archive -o cmTC_1d362.exe -Wl,--out-implib,libcmTC_1d362.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1d362.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-J09F70'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake/SndFileChecks.cmake:148 (check_function_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for waitpid"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-r2wlLf"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-r2wlLf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_WAITPID"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-r2wlLf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fbbe8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fbbe8.dir/build.make CMakeFiles/cmTC_fbbe8.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-r2wlLf'
+        Building C object CMakeFiles/cmTC_fbbe8.dir/CheckFunctionExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=waitpid -o CMakeFiles/cmTC_fbbe8.dir/CheckFunctionExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-r2wlLf/CheckFunctionExists.c
+        Linking C executable cmTC_fbbe8.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbbe8.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-ld: CMakeFiles/cmTC_fbbe8.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `waitpid'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_fbbe8.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_fbbe8.dir/objects.a @CMakeFiles/cmTC_fbbe8.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=waitpid -Wl,--whole-archive CMakeFiles/cmTC_fbbe8.dir/objects.a -Wl,--no-whole-archive -o cmTC_fbbe8.exe -Wl,--out-implib,libcmTC_fbbe8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fbbe8.dir/linkLibs.rsp
+        gmake[1]: *** [CMakeFiles/cmTC_fbbe8.dir/build.make:104: cmTC_fbbe8.exe] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-r2wlLf'
+        gmake: *** [Makefile:134: cmTC_fbbe8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/SndFileChecks.cmake:169 (check_symbol_exists)"
+      - "CMakeLists.txt:95 (include)"
+    checks:
+      - "Looking for S_IRGRP"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-oEj4OB"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-oEj4OB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_DECL_S_IRGRP"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-oEj4OB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe737/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fe737.dir/build.make CMakeFiles/cmTC_fe737.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-oEj4OB'
+        Building C object CMakeFiles/cmTC_fe737.dir/CheckSymbolExists.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_fe737.dir/CheckSymbolExists.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-oEj4OB/CheckSymbolExists.c
+        Linking C executable cmTC_fe737.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe737.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_fe737.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_fe737.dir/objects.a @CMakeFiles/cmTC_fe737.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_fe737.dir/objects.a -Wl,--no-whole-archive -o cmTC_fe737.exe -Wl,--out-implib,libcmTC_fe737.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fe737.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeScratch/TryCompile-oEj4OB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/TestInline.cmake:6 (try_compile)"
+      - "cmake/SndFileChecks.cmake:198 (test_inline)"
+      - "CMakeLists.txt:95 (include)"
+    directories:
+      source: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp"
+      binary: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/cmake"
+    buildResult:
+      variable: "HAVE_INLINE"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0c495/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0c495.dir/build.make CMakeFiles/cmTC_0c495.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0c495.dir/TestInline.c.obj
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_0c495.dir/TestInline.c.obj -c /mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/TestInline.c
+        Linking C executable cmTC_0c495.exe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c495.dir/link.txt --verbose=1
+        /usr/bin/cmake -E rm -f CMakeFiles/cmTC_0c495.dir/objects.a
+        /usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_0c495.dir/objects.a @CMakeFiles/cmTC_0c495.dir/objects1.rsp
+        /usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/cmTC_0c495.dir/objects.a -Wl,--no-whole-archive -o cmTC_0c495.exe -Wl,--out-implib,libcmTC_0c495.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0c495.dir/linkLibs.rsp
+        gmake[1]: Leaving directory '/mnt/c/Users/OMNIBOX-1/Downloads/Stuff4Gemini/PRJ_WRKN/deps/libsndfile-1.2.2/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

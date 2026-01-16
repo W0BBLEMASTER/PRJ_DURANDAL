@@ -1,0 +1,126 @@
+DEBUG = 0
+LIBRETRO_DIR := ../skeletor
+
+TARGET_NAME := durandal_libretro
+TARGET := $(TARGET_NAME).dll
+
+CXX := x86_64-w64-mingw32-g++-posix
+CC := x86_64-w64-mingw32-gcc-posix
+
+# Force _WIN32 and C++20
+DEFINES := -DHAVE_CONFIG_H -D_THREAD_SAFE -D__STDC_CONSTANT_MACROS -DHAVE_SDL2 -DASIO_STANDALONE -D_USE_MATH_DEFINES -D_WIN32 -DWIN32 -D_WINDOWS -Dgettimeofday=mingw_gettimeofday -DAL_LIBTYPE_STATIC -DOS_IS_WIN32=1 -DUSE_WINDOWS_API=1
+
+INCLUDES := -I$(LIBRETRO_DIR) \
+	-I. \
+	-ISource_Files \
+	-ISource_Files/CSeries \
+	-ISource_Files/Files \
+	-ISource_Files/GameWorld \
+	-ISource_Files/Input \
+	-ISource_Files/Lua \
+	-ISource_Files/Misc \
+	-ISource_Files/ModelView \
+	-ISource_Files/Network \
+	-ISource_Files/Network/Metaserver \
+	-ISource_Files/Videos \
+	-ISource_Files/RenderMain \
+	-ISource_Files/RenderOther \
+	-ISource_Files/Sound \
+	-ISource_Files/XML \
+	-ISource_Files/TCPMess \
+	-I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include \
+	-I../deps/SDL2-2.28.5/x86_64-w64-mingw32/include/SDL2 \
+	-I../deps/openal-soft-1.23.1-bin/include \
+	-I../deps/boost_1_84_0 \
+	-I../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/include \
+	-I../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include \
+	-I../deps/asio-1.28.0/include \
+	-I../deps/zlib-1.3.1 \
+	-I../deps/libsndfile-1.2.2/src \
+	-I../deps/libsndfile-1.2.2-win64/include
+
+# FULL MONOLITH STATIC LIB CONFIG - NO -L PATHS
+SDL_SYS_LIBS := -lmingw32 -lws2_32 -liphlpapi -lwinmm -lversion -limm32 -lsetupapi -lole32 -loleaut32 -lshell32 -luuid -lgdi32 -luser32 -lbcrypt -lrpcrt4
+
+# ABSOLUTE PATHS TO STATIC ARCHIVES
+STATIC_ARCHIVES := ../deps/SDL2-2.28.5/x86_64-w64-mingw32/lib/libSDL2.a \
+	../deps/SDL2-2.28.5/x86_64-w64-mingw32/lib/libSDL2main.a \
+	../deps/SDL2_image-2.8.2/x86_64-w64-mingw32/lib/libSDL2_image.a \
+	../deps/SDL2_ttf-2.22.0/x86_64-w64-mingw32/lib/libSDL2_ttf.a
+
+LIBS := $(STATIC_ARCHIVES) $(SDL_SYS_LIBS) -static -static-libgcc -static-libstdc++ -lpthread -lm
+
+COMMON_FLAGS := -O2 -g -fno-lto -fno-PIC $(DEFINES) $(INCLUDES)
+CXXFLAGS := -std=c++20 $(COMMON_FLAGS) -include cstdio -include cstdint
+CFLAGS := -std=gnu99 $(COMMON_FLAGS) -include stdio.h -include stdint.h
+ASFLAGS := $(COMMON_FLAGS)
+
+# Source Files
+SOURCES_CPP := $(wildcard Source_Files/*.cpp) \
+	$(wildcard Source_Files/CSeries/*.cpp) \
+	$(wildcard Source_Files/Files/*.cpp) \
+	$(wildcard Source_Files/GameWorld/*.cpp) \
+	$(wildcard Source_Files/Input/*.cpp) \
+	$(wildcard Source_Files/Lua/*.cpp) \
+	$(wildcard Source_Files/Misc/*.cpp) \
+	$(wildcard Source_Files/ModelView/*.cpp) \
+	$(wildcard Source_Files/Network/*.cpp) \
+	$(wildcard Source_Files/Network/Metaserver/*.cpp) \
+	$(wildcard Source_Files/Videos/*.cpp) \
+	$(wildcard Source_Files/RenderMain/*.cpp) \
+	$(wildcard Source_Files/RenderOther/*.cpp) \
+	$(wildcard Source_Files/Sound/*.cpp) \
+	$(wildcard Source_Files/XML/*.cpp) \
+	$(wildcard Source_Files/TCPMess/*.cpp) \
+	$(wildcard ../deps/boost_1_84_0/libs/filesystem/src/*.cpp) \
+	$(wildcard ../deps/boost_1_84_0/libs/system/src/*.cpp) \
+	$(LIBRETRO_DIR)/libretro.cpp \
+	openal_stub.cpp
+
+# Core LibSndFile sources
+SNDFILE_SRCS := $(wildcard ../deps/libsndfile-1.2.2/src/*.c) \
+	$(wildcard ../deps/libsndfile-1.2.2/src/ALAC/*.c) \
+	$(wildcard ../deps/libsndfile-1.2.2/src/G72x/*.c) \
+	$(wildcard ../deps/libsndfile-1.2.2/src/GSM610/*.c)
+
+# EXPLICIT EXCLUSIONS (Tests and Dummies)
+SNDFILE_SRCS := $(filter-out %/ogg.c %/flac.c %/mpeg.c %/ogg_vorbis.c %/ogg_speex.c %/ogg_pcm.c %/ogg_opus.c %/ogg_vcomment.c, $(SNDFILE_SRCS))
+SNDFILE_SRCS := $(filter-out %/test_main.c %/test_audio_detect.c %/test_binheader_writef.c %/test_broadcast_var.c %/test_cart_var.c %/test_conversions.c %/test_endswap.c %/test_file_io.c %/test_float.c %/test_ima_oki_adpcm.c %/test_log_printf.c %/test_nms_adpcm.c %/test_strncpy_crlf.c %/g72x_test.c, $(SNDFILE_SRCS))
+
+# Internal Lua + zlib + SndFile + Stubs
+SOURCES_C := $(wildcard Source_Files/Lua/*.c) \
+	$(wildcard ../deps/zlib-1.3.1/*.c) \
+	$(SNDFILE_SRCS) \
+	sndfile_stub.c
+
+SOURCES_ASM :=
+
+# Filter out main and platform specific
+SOURCES_CPP := $(filter-out Source_Files/main.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Files/linux_files.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Files/macosx_files.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Files/windows_files.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Misc/thread_priority_sdl_dummy.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Misc/thread_priority_sdl_posix.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Misc/thread_priority_sdl_macosx.cpp, $(SOURCES_CPP))
+SOURCES_CPP := $(filter-out Source_Files/Network/network_dummy.cpp, $(SOURCES_CPP))
+
+OBJS := $(SOURCES_CPP:.cpp=.o) $(SOURCES_C:.c=.o) $(SOURCES_ASM:.S=.o)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) -shared -static -static-libgcc -static-libstdc++ -o $@ $(OBJS) $(LIBS)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c -o $@ $< 
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $< 
+
+%.o: %.S
+	$(CC) $(ASFLAGS) -c -o $@ $< 
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+	rm -f $(LIBRETRO_DIR)/*.o

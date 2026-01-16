@@ -1,0 +1,1 @@
+ libsndfile.a "/usr/lib/x86_64-linux-gnu/libvorbisenc.a" "/usr/lib/x86_64-linux-gnu/libvorbis.a" "/usr/lib/x86_64-linux-gnu/libFLAC.a" "/usr/lib/x86_64-linux-gnu/libogg.a" "/usr/lib/x86_64-linux-gnu/libopus.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

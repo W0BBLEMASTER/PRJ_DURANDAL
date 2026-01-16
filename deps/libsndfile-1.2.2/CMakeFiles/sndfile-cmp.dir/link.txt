@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/sndfile-cmp.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/sndfile-cmp.dir/objects.a @CMakeFiles/sndfile-cmp.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/sndfile-cmp.dir/objects.a -Wl,--no-whole-archive -o sndfile-cmp.exe -Wl,--out-implib,libsndfile-cmp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/sndfile-cmp.dir/linkLibs.rsp

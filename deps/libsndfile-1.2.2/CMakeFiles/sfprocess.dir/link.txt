@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/sfprocess.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/sfprocess.dir/objects.a @CMakeFiles/sfprocess.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/sfprocess.dir/objects.a -Wl,--no-whole-archive -o sfprocess.exe -Wl,--out-implib,libsfprocess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/sfprocess.dir/linkLibs.rsp

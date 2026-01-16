@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+6f473895db2ebfc067007f1515066fd7 src/test_endswap.c
+9ec7f28e7c2d0d83b30ad964b13be62b tests/floating_point_test.c
+4cf692b87e837cfbf9e1248262b9c482 tests/header_test.c
+af3fddae833329245f4f4accf71a47d3 tests/pcm_test.c
+338347caa2ce3cf0459efb26f06c50a9 tests/pipe_test.c
+f3fc66400465752ce28d596a14177df5 tests/rdwr_test.c
+8e70b4a4241e4149506f367530812fea tests/scale_clip_test.c
+19457f38f962283acf40743fc6711770 tests/utils.c
+14d2bf051c89ae16e807658e1f6f46ae tests/write_read_test.c

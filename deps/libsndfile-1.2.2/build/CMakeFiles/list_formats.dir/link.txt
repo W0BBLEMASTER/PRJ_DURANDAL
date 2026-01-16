@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/list_formats.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/list_formats.dir/objects.a @CMakeFiles/list_formats.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/list_formats.dir/objects.a -Wl,--no-whole-archive -o list_formats.exe -Wl,--out-implib,liblist_formats.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/list_formats.dir/linkLibs.rsp

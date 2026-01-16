@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/sndfile-deinterleave.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/sndfile-deinterleave.dir/objects.a @CMakeFiles/sndfile-deinterleave.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -Wl,--whole-archive CMakeFiles/sndfile-deinterleave.dir/objects.a -Wl,--no-whole-archive -o sndfile-deinterleave.exe -Wl,--out-implib,libsndfile-deinterleave.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/sndfile-deinterleave.dir/linkLibs.rsp

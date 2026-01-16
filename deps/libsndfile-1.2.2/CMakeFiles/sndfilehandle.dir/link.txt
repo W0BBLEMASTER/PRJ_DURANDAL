@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/sndfilehandle.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/sndfilehandle.dir/objects.a @CMakeFiles/sndfilehandle.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/sndfilehandle.dir/objects.a -Wl,--no-whole-archive -o sndfilehandle.exe -Wl,--out-implib,libsndfilehandle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/sndfilehandle.dir/linkLibs.rsp

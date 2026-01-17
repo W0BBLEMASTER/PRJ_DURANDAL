@@ -311,12 +311,14 @@ float Screen::pixel_scale()
 
 int Screen::window_height()
 {
-	return std::max(static_cast<short>(480), screen_mode.height);
+    // LIBRETRO: Force 480p to prevent bogus resolution crashes
+	return 480; // std::max(static_cast<short>(480), screen_mode.height);
 }
 
 int Screen::window_width()
 {
-	return std::max(static_cast<short>(640), screen_mode.width);
+    // LIBRETRO: Force 640p to prevent bogus resolution crashes
+	return 640; // std::max(static_cast<short>(640), screen_mode.width);
 }
 
 bool Screen::hud()

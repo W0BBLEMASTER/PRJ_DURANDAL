@@ -160,6 +160,12 @@ extern "C" bool libretro_cursor_visible = false;
 static float emu_cursor_x = VIDEO_WIDTH / 2.0f;
 static float emu_cursor_y = VIDEO_HEIGHT / 2.0f;
 
+// GHOSTING FIX STATE
+static uint32_t cursor_backup[100] = {0}; 
+static int last_drawn_x = -1;
+static int last_drawn_y = -1;
+static SDL_Surface* last_drawn_surface = NULL;
+
 extern "C" void libretro_trace(const char* msg)
 {
     if (log_cb) log_cb(RETRO_LOG_INFO, "[TRACE] %s\n", msg);
@@ -170,18 +176,46 @@ extern "C" void retro_loop_tick(void);
 static void render_software_cursor(SDL_Surface* surface, int x, int y)
 {
     if (!surface || !surface->pixels) return;
+    if (surface->format->BytesPerPixel != 4) return;
+
     uint32_t* pixels = (uint32_t*)surface->pixels;
     int pitch = surface->pitch / 4;
+
+    // 1. RESTORE previous area
+    if (last_drawn_surface == surface && last_drawn_x != -1) {
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                int px = last_drawn_x + j;
+                int py = last_drawn_y + i;
+                if (px >= 0 && px < surface->w && py >= 0 && py < surface->h) {
+                    pixels[py * pitch + px] = cursor_backup[i * 10 + j];
+                }
+            }
+        }
+    }
+
+    // 2. SAVE current area
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            int px = x + j;
+            int py = y + i;
+            if (px >= 0 && px < surface->w && py >= 0 && py < surface->h) {
+                cursor_backup[i * 10 + j] = pixels[py * pitch + px];
+            }
+        }
+    }
+    last_drawn_x = x;
+    last_drawn_y = y;
+    last_drawn_surface = surface;
+
+    // 3. DRAW the arrow
     uint32_t white = 0xFFFFFFFF;
     uint32_t black = 0xFF000000;
-
-    // Draw a simple 10x10 arrow
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j <= i; j++) {
             int px = x + j;
             int py = y + i;
             if (px >= 0 && px < surface->w && py >= 0 && py < surface->h) {
-                // White fill with black outline
                 if (j == i || j == 0 || i == 9)
                     pixels[py * pitch + px] = black;
                 else

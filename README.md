@@ -4,19 +4,22 @@
 
 • Does not map input
 
-• Does not show title animation nor fade in
+• Main Menu doesn't work with emulated cursor
 
-• Does not boot selected inbuilt option, likely needed to pivot to just an alephone standalone port to enable scenario choice
+• No Keyboard support
+
+• No Controller support
+
 
 ## MINOR BUGS
 
-• TO BE UPDATED
+• No sound
+
+
 
 ### CHORES
 
 • CLEAN OUT UNNEEDED .GITS (sources are modded) TO UNLINK THEM
-
-• REMOVE ALL BLOAT ZONE.IDENTIFIERS
 
 ###
 
@@ -27,6 +30,4 @@
 
 
 #### ALL OF THIS IS SUBJECT TO CHANGE. PLACEHOLDER README.MD!
-#### STAY TUNED FOR MORE BELOW THIS IN 3D ASCII GEMINI!!
-####
 ####

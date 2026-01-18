@@ -143,10 +143,12 @@ fixed_yaw_pitch pull_mouselook_delta()
 }
 
 
+extern "C" uint8 libretro_mouse_buttons;
+
 void
 mouse_buttons_become_keypresses(Uint8* ioKeyMap)
 {
-		uint8 buttons = SDL_GetMouseState(NULL, NULL);
+		uint8 buttons = libretro_mouse_buttons;
 		uint8 orig_buttons = buttons;
 		buttons &= button_mask;				// Mask out disabled buttons
 
@@ -165,18 +167,14 @@ mouse_buttons_become_keypresses(Uint8* ioKeyMap)
  *  Hide/show mouse pointer
  */
 
-extern "C" bool libretro_cursor_visible;
-
 void hide_cursor(void)
 {
 	SDL_ShowCursor(0);
-    libretro_cursor_visible = false;
 }
 
 void show_cursor(void)
 {
 	SDL_ShowCursor(1);
-    libretro_cursor_visible = true;
 }
 
 
